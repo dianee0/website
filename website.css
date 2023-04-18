@@ -1,0 +1,21 @@
+/* for .css code for the main website */
+html {
+    font-family: fantasy;
+}
+
+.mainheader {
+    font-weight: bold;
+    color: purple;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.projects {
+    color: purple;
+}
+
+body {
+    background: #D4DEFF;
+    background: -moz-linear-gradient(left, #D4DEFF 0%, #AEB6D2 50%, #8D8FBB 100%);
+    background: -webkit-linear-gradient(left, #D4DEFF 0%, #AEB6D2 50%, #8D8FBB 100%);
+    background: linear-gradient(to right, #D4DEFF 0%, #AEB6D2 50%, #8D8FBB 100%);
+}
