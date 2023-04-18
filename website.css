@@ -19,3 +19,13 @@ body {
     background: -webkit-linear-gradient(left, #D4DEFF 0%, #AEB6D2 50%, #8D8FBB 100%);
     background: linear-gradient(to right, #D4DEFF 0%, #AEB6D2 50%, #8D8FBB 100%);
 }
+
+#linkedin:hover{
+    border-bottom: 1px solid;
+    background:  #295e89;
+}
+
+#github:hover{
+    border-bottom: 1px solid;
+    background:  black;
+}
