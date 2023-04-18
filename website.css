@@ -29,3 +29,12 @@ body {
     border-bottom: 1px solid;
     background:  black;
 }
+
+.links:visited{
+    color: rgb(26, 71, 26); /*alternative color: rgb(26, 71, 26)*/
+}
+
+.links{
+    color: purple;
+}
+
