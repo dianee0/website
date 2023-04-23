@@ -6,20 +6,28 @@
     <link rel="stylesheet" href= "website.css" />
   </head>
 <body>
-  <h1 class = 'mainheader'> Welcome to my HTML page!</h1>
-  <p>My name is Diane, I am a Computer Science student at UC Santa Cruz.</p>
-  <a id = 'github' href="https://github.com/dianee0"><img src="github-logo.png" alt= "GitHub Link" height="50" width="50"></a>
-  <a id = 'linkedin' href="https://www.linkedin.com/in/diane-poeng-048bb6272"><img src="linkedin-logo.png" alt= "Linkedin Link" height="50" width="50"></a>
+  <h1 class = 'mainheader' id = 'welcome'> Welcome to my HTML page!</h1>
+  <p id='intro-paragraph'> My name is Diane, I am a Computer Science student at UC Santa Cruz. I love to play video games in my free time and I love cats!</p>
+  <div class="icons">
+    <a id = 'github' href="https://github.com/dianee0"><img src="github-logo.png" alt= "GitHub Link" height="50" width="50"></a>
+    <a id = 'linkedin' href="https://www.linkedin.com/in/diane-poeng-048bb6272"><img src="linkedin-logo.png" alt= "Linkedin Link" height="50" width="50"></a>
+  </div>
   <h2 class = 'mainheader'> Projects</h2>
-  <dl>
-    <dt><a class = 'links' href = "https://codepen.io/dianee0/pen/RwePYam">Task 1: Fixing Headers and Paragraph Elements</a></dt>
-    <dd>In this project, I fix minor HTML errors by fixing the header and paragraph elements.</dd>
-    <dt><a class = 'links' href = "https://codepen.io/dianee0/pen/MWPwqJE">Task 2: Fixing Lists</a></dt>
-    <dd>I work on fixing unordered and ordered lists in HTML.</dd>
-    <dt><a class = 'links' href = "https://codepen.io/dianee0/pen/oNaXPZm">Task 3: Emphasis and Importance</a></dt>
-    <dd>This project fixes the formatting of the HTML code to italisize and bold specific words to emphasize importance.</dd>
-    <dt><a class = 'links' href = "https://dianee0.github.io/website/businesscard"> Business Card Project</a></dt>
-    <dd>I create a business card with HTML and CSS.</dd>
-  </dl>
+  <div class="proj-links">
+    <dl>
+      <dt><a class = 'links' href = "https://codepen.io/dianee0/pen/RwePYam"><strong>Task 1: </strong>Fixing Headers and Paragraph Elements</a></dt>
+      <dd>In this project, I fix minor HTML errors by fixing the header and paragraph elements.</dd>
+      <dt><a class = 'links' href = "https://codepen.io/dianee0/pen/MWPwqJE"><strong>Task 2: </strong>Fixing Lists</a></dt>
+      <dd>I work on fixing unordered and ordered lists in HTML.</dd>
+      <dt><a class = 'links' href = "https://codepen.io/dianee0/pen/oNaXPZm"><strong>Task 3: </strong>Emphasis and Importance</a></dt>
+      <dd>This project fixes the formatting of the HTML code to italisize and bold specific words to emphasize importance.</dd>
+      <dt><a class = 'links' href = "https://dianee0.github.io/website/businesscard"> Business Card Project</a></dt>
+      <dd>I create a business card with HTML and CSS.</dd>
+    </dl>
+  </div>
+  <div class="cats">
+    <img src="cat3.png" alt="cat clipart" width="200px">
+    <img src="cat4.png" alt="cat clipart" width="200px">
+  </div>
 </body>
 </html>

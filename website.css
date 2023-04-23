@@ -1,31 +1,39 @@
 /* for .css code for the main website */
 html {
-    font-family: fantasy;
+    height: 100%;
 }
 
-.mainheader {
+.mainheader { /* class added to elements*/
     font-weight: bold;
     color: purple;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
-.projects {
-    color: purple;
+
+#intro-paragraph{ /* ID added to elements + different font */
+    font-family: fantasy;
+    font-weight: bold;
 }
 
-body {
+body { /* class added to elements*/
+    margin: 0;
+    min-height: 100%;
     background: #D4DEFF;
     background: -moz-linear-gradient(left, #D4DEFF 0%, #AEB6D2 50%, #8D8FBB 100%);
     background: -webkit-linear-gradient(left, #D4DEFF 0%, #AEB6D2 50%, #8D8FBB 100%);
     background: linear-gradient(to right, #D4DEFF 0%, #AEB6D2 50%, #8D8FBB 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#linkedin:hover{
+#linkedin:hover{ /* ID added to elements + effect */
     border-bottom: 1px solid;
     background:  #295e89;
 }
 
-#github:hover{
+#github:hover{ /* ID added to elements + effect */
     border-bottom: 1px solid;
     background:  black;
 }
@@ -38,3 +46,11 @@ body {
     color: purple;
 }
 
+
+#intro-paragraph{
+    text-align: center;
+}
+
+.cats{ /*IMG element */
+    flex-direction: row;
+}
