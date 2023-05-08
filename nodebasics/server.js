@@ -5,7 +5,7 @@ const port = 3000
 
 // GET callback function returns a response message
 app.get('/', (req, res) => {
-    res.send('Hello there!')
+    res.send('Hello World! Welcome to Node.js')
 })
 
 let counter = 0;
